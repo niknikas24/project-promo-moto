@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/58f404ce76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/catalog.css">
+    <title>Project - Promo-moto</title>
+</head>
+<body>
+    <section class="section-models">
+        <div class="models-text">
+            <a class="models-back" href="../index.html"><i class="fa-solid fa-arrow-left"></i>  Назад</a>
+            <h2 class="models-title">
+                Новинки сезона!
+            </h2>
+        </div>
+
+        <div class="models models-row">
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/husqvarna.jpg" alt="Husqvarna Svartpilen 401 ABS 2024">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>Husqvarna Svartpilen 401 ABS 2024</span></div>
+                    <div class="model-price"><span>799 900 ₽</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-husqvarna')"><i class="fa fa-cog"></i><span>Описание</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/gaokin.jpg" alt="Gaokin GK 500 M11J ABS">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>Gaokin GK 500 M11J ABS</span></div>
+                    <div class="model-price"><span>690 000 ₽</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-gaokin')"><i class="fa fa-cog"></i><span>Описание</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/kove.jpg" alt="Kove 500X Classic">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>Kove 500X Classic</span></div>
+                    <div class="model-price"><span>655 000 ₽</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-kove')"><i class="fa fa-cog"></i><span>Описание</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/m1nsk.jpg" alt="M1NSK Hunter 150">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>M1NSK Hunter 150</span></div>
+                    <div class="model-price"><span>124 960 ₽</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-m1nsk')"><i class="fa fa-cog"></i><span>Описание</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/regulmoto.jpg" alt="Regulmoto XDV Adventure 300CC">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>Regulmoto XDV Adventure 300CC</span></div>
+                    <div class="model-price"><span>483 000 ₽</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-regulmoto')"><i class="fa fa-cog"></i><span>Описание</span></button>
+                </div>
+            </div>
+
+            <div class="model">
+                <div class="model-img">
+                    <img src="../images/models/zid.jpg" alt="ЗиД 125">
+                </div>
+                <div class="model-info">
+                    <div class="model-name"><span>ЗиД 125</span></div>
+                    <div class="model-price"><span>86 800 ₽</span></div>
+                </div>
+                <div class="model-footer">
+                    <button class="btn-model btn-model-white" onclick="showPopup('popup-zid')"><i class="fa fa-cog"></i><span>Описание</span></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-popup">
+        <div class="popup" id="popup-husqvarna">
+            <div class="popup-content">  
+                <button type="button" class="popup-close" onclick="showPopup('popup-husqvarna')">&times;</button>
+                <h2 class="popup-title">Husqvarna: Модельный год: 2024 / Цвет: Черный</h2>
+                <p class="popup-text">
+                    Svartpilen 401 – это прогрессивный, брутальный мотоцикл с современным дизайном и современным техническим оснащением. 
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">799 900 ₽</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-gaokin">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-gaokin')">&times;</button>
+                <h2 class="popup-title">Gaokin: Модельный год: 2024 / Цвет: Бежевый</h2>
+                <p class="popup-text">
+                    Gaokin GK 500 M11J - классический мотоцикл в стиле скремблер, с мотором объемом 486 куб.см.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">690 000 ₽</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-kove">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-kove')">&times;</button>
+                <h2 class="popup-title">Kove: Модельный год: 2023 / Цвет: Черный</h2>
+                <p class="popup-text">
+                    Хотите купить новый мотоцикл Kove 500X Classic? Посетите наши мотосалоны в Москве, Санкт-Петербурге.
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">655 000 ₽</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-m1nsk">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-m1nsk')">&times;</button>
+                <h2 class="popup-title">M1NSK: Модельный год: 2022 / Цвет: Зеленый</h2>
+                <p class="popup-text">
+                    Мотоцикл M1NSK Hunter 150 имеет повышенную проходимость за счет увеличенных ходов подвески.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">124 960 ₽</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-regulmoto">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-regulmoto')">&times;</button>
+                <h2 class="popup-title">Regulmoto: Модельный год: 2023 / Цвет: Серый</h2>
+                <p class="popup-text">
+                    Опытные консультанты помогут выбрать и купить скутер Regulmoto, который будет соответствовать Вашим потребностям и предпочтениям.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">483 000 ₽</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-zid">
+            <div class="popup-content">
+                <button type="button" class="popup-close" onclick="showPopup('popup-zid')">&times;</button>
+                <h2 class="popup-title">ЗиД: Модельный год: 2021 / Цвет: Синий</h2>
+                <p class="popup-text">
+                    ЗиД-125 разработан с нуля в России. Его внешний вид, а также базовые элементы, такие как шасси, рама и маятники российского производства.
+                </p>
+                <div class="popup-buy">
+                    <button type="button" class="popup-button">86 800 ₽</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../scripts/catalog.js"></script>
+</body>
+</html>
