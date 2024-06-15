@@ -213,6 +213,10 @@ body {
         top: -5%;
     }
 
+    .slide-text {
+        top: -5%;
+    }
+    
     .slide-text p {
         font-size: 30px;
     }
