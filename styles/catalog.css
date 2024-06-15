@@ -195,8 +195,13 @@ body {
 @media (max-width: 1200px) {
     .models-title {
         font-size: 36px;
+        margin-top: 120px;
     }
 
+    .models-back {
+        top: 5%;
+    }
+    
     .models-row {
         grid-template-columns: repeat(2, 38%);
         gap: 0;
@@ -224,4 +229,10 @@ body {
     .popup-text {
         font-size: 20px;
     }    
+}
+
+@media (max-width: 420px) {
+    .popup-content {
+        height: 70%;
+    }
 }
